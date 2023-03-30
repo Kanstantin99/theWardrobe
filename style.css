@@ -1,0 +1,340 @@
+@import url(media.css);
+a {
+  color: grey;
+  text-decoration: none;
+}
+.main1 {
+  height: 100px;
+  width: auto;
+  background-color: black;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+.menu {
+  padding-top: 40px;
+  padding-right: 70px;
+  display: flex;
+  gap: 80px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.tw {
+  font-size: 25px;
+  color: rgb(116, 194, 194);
+
+  top: 30px;
+  left: 70px;
+}
+.contact {
+  font-size: 15px;
+}
+.about {
+  font-size: 15px;
+}
+.faq {
+  font-size: 15px;
+}
+.profile {
+  font-size: 15px;
+}
+.main2 {
+  height: 300px;
+  width: auto;
+  background-color: rgb(116, 194, 194);
+  position: relative;
+}
+
+.wardrobe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: monospace;
+  height: 250px;
+  width: 100%;
+  position: absolute;
+}
+.the {
+  font-size: 60px;
+  position: absolute;
+  top: 130px;
+}
+
+.main3 {
+  height: 500px;
+  width: auto;
+  position: relative;
+  text-align: center;
+}
+.fon {
+  position: relative;
+  height: 500px;
+  width: auto;
+}
+.fon1 {
+  height: 500px;
+  width: 100%;
+}
+.welcome {
+  height: 500px;
+  width: auto;
+  position: relative;
+}
+.welcome2 {
+  height: 500px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.welcome3 {
+  text-align: center;
+}
+.line1 {
+  width: 100px;
+  color: rgb(99, 227, 227);
+}
+.more {
+  border: solid;
+  height: 20px;
+  width: 70px;
+  padding: 7px 23px;
+  background-color: rgb(99, 227, 227);
+  border-color: rgb(99, 227, 227);
+  color: black;
+}
+.main4 {
+  position: relative;
+  height: 700px;
+  width: auto;
+  background-color: rgb(116, 194, 194);
+}
+.who {
+  font-family: monospace;
+  font-size: 50px;
+  position: absolute;
+  top: 50px;
+  left: 605px;
+}
+.grid1 {
+  height: 600px;
+  width: 900px;
+  position: absolute;
+  top: 100px;
+  left: 304px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr;
+}
+.flex2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.boy {
+  height: 400px;
+  width: 360px;
+  transition-duration: 1s;
+}
+.boy:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.flex3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+.girl {
+  height: 400px;
+  width: 360px;
+  transition-duration: 1s;
+}
+.girl:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.main5 {
+  height: 500px;
+  width: auto;
+  position: relative;
+}
+.youdo {
+  text-align: center;
+  top: 100px;
+}
+.youdo1 {
+  font-family: monospace;
+  font-size: 50px;
+}
+.whatdo {
+  height: 300px;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 70px;
+}
+.clothes {
+  height: 300px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  transition-duration: 1s;
+}
+.clothes:hover {
+  background-color: rgb(116, 194, 194);
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.clothes1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 135px;
+  top: 20px;
+}
+.collect {
+  border: solid;
+  color: white;
+  border-color: white;
+  width: 200px;
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 5px;
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+
+.weather {
+  height: 300px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  transition-duration: 1s;
+}
+.weather:hover {
+  background-color: rgb(116, 194, 194);
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.weather1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 135px;
+  top: 20px;
+}
+.showWeather {
+  border: solid;
+  color: white;
+  border-color: white;
+  width: 200px;
+  height: 150px;
+  padding-top: 20px;
+  padding-left: 5px;
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+
+.share {
+  height: 300px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  transition-duration: 1s;
+}
+.share:hover {
+  background-color: rgb(116, 194, 194);
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.share1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 135px;
+  top: 20px;
+}
+.youShare {
+  border: solid;
+  color: white;
+  border-color: white;
+  width: 200px;
+  height: 150px;
+  padding-top: 20px;
+  padding-left: 5px;
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+.main6 {
+  position: relative;
+  height: 400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.go {
+  position: absolute;
+  top: 100px;
+  border: solid;
+  width: 165px;
+  height: 155px;
+  border-width: 1px;
+  border-radius: 70%;
+  background-color: rgb(116, 194, 194);
+}
+.go1 {
+  position: absolute;
+  padding-left: 50px;
+  padding-top: 70px;
+  color: black;
+}
+.main7 {
+  position: relative;
+  height: 100px;
+  width: auto;
+  background-color: rgb(116, 194, 194);
+}
+.media {
+  position: relative;
+  top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+}
+.twitter {
+  width: 40px;
+  height: 40px;
+}
