@@ -3,7 +3,7 @@ a {
   color: grey;
   text-decoration: none;
 }
-.main1 {
+.mainHead {
   height: 100px;
   width: auto;
   background-color: black;
@@ -41,7 +41,7 @@ a {
 .profile {
   font-size: 15px;
 }
-.main2 {
+.mainWardrobe {
   height: 300px;
   width: auto;
   background-color: rgb(116, 194, 194);
@@ -63,7 +63,7 @@ a {
   top: 130px;
 }
 
-.main3 {
+.mainWelcome {
   height: 500px;
   width: auto;
   position: relative;
@@ -83,14 +83,14 @@ a {
   width: auto;
   position: relative;
 }
-.welcome2 {
+.welcomeGuest {
   height: 500px;
   width: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.welcome3 {
+.welcomeDear {
   text-align: center;
 }
 .line1 {
@@ -106,7 +106,7 @@ a {
   border-color: rgb(99, 227, 227);
   color: black;
 }
-.main4 {
+.mainUse {
   position: relative;
   height: 700px;
   width: auto;
@@ -119,7 +119,7 @@ a {
   top: 50px;
   left: 605px;
 }
-.grid1 {
+.gridFirst {
   height: 600px;
   width: 900px;
   position: absolute;
@@ -129,7 +129,7 @@ a {
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr;
 }
-.flex2 {
+.flexSecond {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -146,7 +146,7 @@ a {
   transform: scale(1.2);
   transition-duration: 1s;
 }
-.flex3 {
+.flexThree {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -165,7 +165,7 @@ a {
   transform: scale(1.2);
   transition-duration: 1s;
 }
-.main5 {
+.mainDo {
   height: 500px;
   width: auto;
   position: relative;
@@ -174,7 +174,7 @@ a {
   text-align: center;
   top: 100px;
 }
-.youdo1 {
+.youdoCan {
   font-family: monospace;
   font-size: 50px;
 }
@@ -202,7 +202,7 @@ a {
   transform: scale(1.1);
   transition-duration: 1s;
 }
-.clothes1 {
+.clothesFirst {
   width: 50px;
   height: 50px;
   position: relative;
@@ -236,7 +236,7 @@ a {
   transform: scale(1.1);
   transition-duration: 1s;
 }
-.weather1 {
+.weatherFirst {
   width: 50px;
   height: 50px;
   position: relative;
@@ -270,7 +270,7 @@ a {
   transform: scale(1.1);
   transition-duration: 1s;
 }
-.share1 {
+.shareFirst {
   width: 50px;
   height: 50px;
   position: relative;
@@ -289,7 +289,7 @@ a {
   top: 30px;
   left: 60px;
 }
-.main6 {
+.mainGo {
   position: relative;
   height: 400px;
   width: auto;
@@ -312,7 +312,7 @@ a {
   padding-top: 70px;
   color: black;
 }
-.main7 {
+.mainMedia {
   position: relative;
   height: 100px;
   width: auto;
