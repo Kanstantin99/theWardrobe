@@ -132,3 +132,8 @@
     top: 200px;
   }
 }
+@media all and (max-width: 425px) {
+  .gridFirst {
+    left: -20px;
+  }
+}
