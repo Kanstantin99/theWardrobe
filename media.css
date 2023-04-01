@@ -1,26 +1,68 @@
-@media all and (max-width: 1230px) {
-  .who {
-    left: 445px;
+@media all and (max-width: 1920px) {
+  .gridFirst {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
-  .grid1 {
+  .flexSecond {
+    position: relative;
+  }
+  .flexThree {
+    position: relative;
+    left: 0px;
+    top: 0px;
+  }
+}
+@media all and (max-width: 1385px) {
+  .gridFirst {
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top: 100px;
+    left: 304px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr;
+  }
+  .flexSecond {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .flexThree {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+  }
+}
+@media all and (max-width: 1230px) {
+  .gridFirst {
     left: 175px;
   }
 }
 @media all and (max-width: 1100px) {
-  .main4 {
+  .mainUse {
     height: 1400px;
   }
-  .who {
-    left: 385px;
-  }
-  .grid1 {
+
+  .gridFirst {
     left: 315px;
     width: 440px;
     height: 1200px;
     grid-template-columns: 2fr;
     grid-template-rows: 2fr 2fr;
   }
-  .flex2 {
+  .flexSecond {
     position: absolute;
     left: 45px;
     top: 80px;
@@ -29,13 +71,13 @@
     grid-column-start: 1;
     grid-column-end: 2;
   }
-  .flex3 {
+  .flexThree {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
   }
-  .main5 {
+  .mainDo {
     height: 800px;
   }
 }
@@ -46,13 +88,10 @@
   }
 }
 @media all and (max-width: 910px) {
-  .who {
-    left: 290px;
-  }
-  .grid1 {
+  .gridFirst {
     left: 230px;
   }
-  .main5 {
+  .mainDo {
     height: 1200px;
   }
 }
@@ -65,26 +104,23 @@
     position: relative;
     top: 200px;
   }
-  .who {
-    left: 190px;
-  }
-  .grid1 {
+
+  .gridFirst {
     left: 120px;
   }
 }
 @media all and (max-width: 695px) {
-  .who {
-    left: 185px;
-  }
-  .grid1 {
+  .gridFirst {
     left: 125px;
   }
 }
-@media all and (max-width: 590px) {
-  .who {
-    left: 105px;
+@media all and (max-width: 620px) {
+  .menu {
+    gap: 20px;
   }
-  .grid1 {
+}
+@media all and (max-width: 590px) {
+  .gridFirst {
     left: 30px;
   }
   .weather {

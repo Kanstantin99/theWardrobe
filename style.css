@@ -93,7 +93,18 @@ a {
 .welcomeDear {
   text-align: center;
 }
-.line1 {
+.welcomeDearmain {
+  text-align: center;
+}
+.welcomeDearmain::first-letter {
+  font-size: 50px;
+  background-color: rgb(116, 194, 194);
+  color: black;
+  margin-right: 0.2em;
+  padding: 0 0.2em 0.1em 0.2em;
+  border-radius: 0.1em;
+}
+.lineOne {
   width: 100px;
   color: rgb(99, 227, 227);
 }
@@ -115,9 +126,9 @@ a {
 .who {
   font-family: monospace;
   font-size: 50px;
-  position: absolute;
+  text-align: center;
+  position: relative;
   top: 50px;
-  left: 605px;
 }
 .gridFirst {
   height: 600px;
@@ -177,6 +188,14 @@ a {
 .youdoCan {
   font-family: monospace;
   font-size: 50px;
+}
+.youdoCan::first-letter {
+  font-size: 50px;
+  background-color: rgb(116, 194, 194);
+  color: black;
+  margin-right: 0.2em;
+  padding: 0 0.2em 0.1em 0.2em;
+  border-radius: 0.1em;
 }
 .whatdo {
   height: 300px;
@@ -306,7 +325,7 @@ a {
   border-radius: 70%;
   background-color: rgb(116, 194, 194);
 }
-.go1 {
+.goOne {
   position: absolute;
   padding-left: 50px;
   padding-top: 70px;
