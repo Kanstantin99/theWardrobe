@@ -3,17 +3,20 @@ a {
   color: grey;
   text-decoration: none;
 }
+
 .mainHead {
   height: 100px;
   width: auto;
   background-color: black;
   position: relative;
 }
+
 .logo {
   position: absolute;
   top: 30px;
   left: 60px;
 }
+
 .menu {
   padding-top: 40px;
   padding-right: 70px;
@@ -22,25 +25,18 @@ a {
   flex-direction: row;
   justify-content: flex-end;
 }
+
 .tw {
   font-size: 25px;
   color: rgb(116, 194, 194);
-
   top: 30px;
   left: 70px;
 }
-.contact {
+
+.profile, .faq, .about, .contact {
   font-size: 15px;
 }
-.about {
-  font-size: 15px;
-}
-.faq {
-  font-size: 15px;
-}
-.profile {
-  font-size: 15px;
-}
+
 .mainWardrobe {
   height: 300px;
   width: auto;
@@ -57,6 +53,7 @@ a {
   width: 100%;
   position: absolute;
 }
+
 .the {
   font-size: 60px;
   position: absolute;
@@ -69,20 +66,24 @@ a {
   position: relative;
   text-align: center;
 }
+
 .fon {
   position: relative;
   height: 500px;
   width: auto;
 }
+
 .fon1 {
   height: 500px;
   width: 100%;
 }
+
 .welcome {
   height: 500px;
   width: auto;
   position: relative;
 }
+
 .welcomeGuest {
   height: 500px;
   width: auto;
@@ -90,12 +91,15 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
+
 .welcomeDear {
   text-align: center;
 }
+
 .welcomeDearmain {
   text-align: center;
 }
+
 .welcomeDearmain::first-letter {
   font-size: 50px;
   background-color: rgb(116, 194, 194);
@@ -104,25 +108,29 @@ a {
   padding: 0 0.2em 0.1em 0.2em;
   border-radius: 0.1em;
 }
+
 .lineOne {
   width: 100px;
-  color: rgb(99, 227, 227);
+  color: rgb(116, 194, 194);
 }
+
 .more {
   border: solid;
   height: 20px;
   width: 70px;
   padding: 7px 23px;
-  background-color: rgb(99, 227, 227);
-  border-color: rgb(99, 227, 227);
+  background-color: rgb(116, 194, 194);
+  border-color: rgb(116, 194, 194);
   color: black;
 }
+
 .mainUse {
   position: relative;
   height: 700px;
   width: auto;
   background-color: rgb(116, 194, 194);
 }
+
 .who {
   font-family: monospace;
   font-size: 50px;
@@ -130,6 +138,7 @@ a {
   position: relative;
   top: 50px;
 }
+
 .gridFirst {
   height: 600px;
   width: 900px;
@@ -140,6 +149,7 @@ a {
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr;
 }
+
 .flexSecond {
   display: flex;
   justify-content: center;
@@ -153,10 +163,12 @@ a {
   width: 360px;
   transition-duration: 1s;
 }
+
 .boy:hover {
   transform: scale(1.2);
   transition-duration: 1s;
 }
+
 .flexThree {
   display: flex;
   justify-content: center;
@@ -164,31 +176,37 @@ a {
   grid-column-start: 2;
   grid-column-end: 3;
   position: absolute;
-  left: 50px;
   top: 100px;
+  left: 50px;
 }
+
 .girl {
   height: 400px;
   width: 360px;
   transition-duration: 1s;
 }
+
 .girl:hover {
   transform: scale(1.2);
   transition-duration: 1s;
 }
+
 .mainDo {
   height: 500px;
   width: auto;
   position: relative;
 }
+
 .youdo {
   text-align: center;
   top: 100px;
 }
+
 .youdoCan {
   font-family: monospace;
   font-size: 50px;
 }
+
 .youdoCan::first-letter {
   font-size: 50px;
   background-color: rgb(116, 194, 194);
@@ -197,6 +215,7 @@ a {
   padding: 0 0.2em 0.1em 0.2em;
   border-radius: 0.1em;
 }
+
 .whatdo {
   height: 300px;
   width: auto;
@@ -207,33 +226,36 @@ a {
   position: relative;
   top: 70px;
 }
+
 .clothes {
   height: 300px;
   width: 340px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
   transition-duration: 1s;
 }
+
 .clothes:hover {
   background-color: rgb(116, 194, 194);
   transform: scale(1.1);
   transition-duration: 1s;
 }
+
 .clothesFirst {
-  width: 50px;
   height: 50px;
+  width: 50px;
   position: relative;
-  left: 135px;
   top: 20px;
+  left: 135px;
 }
+
 .collect {
   border: solid;
   color: white;
   border-color: white;
-  width: 200px;
   height: 100px;
+  width: 200px;
   padding-top: 20px;
   padding-left: 5px;
   position: relative;
@@ -247,27 +269,29 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
   transition-duration: 1s;
 }
+
 .weather:hover {
   background-color: rgb(116, 194, 194);
   transform: scale(1.1);
   transition-duration: 1s;
 }
+
 .weatherFirst {
-  width: 50px;
   height: 50px;
+  width: 50px;
   position: relative;
-  left: 135px;
   top: 20px;
+  left: 135px;
 }
+
 .showWeather {
   border: solid;
   color: white;
   border-color: white;
-  width: 200px;
   height: 150px;
+  width: 200px;
   padding-top: 20px;
   padding-left: 5px;
   position: relative;
@@ -281,33 +305,36 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-
   transition-duration: 1s;
 }
+
 .share:hover {
   background-color: rgb(116, 194, 194);
   transform: scale(1.1);
   transition-duration: 1s;
 }
+
 .shareFirst {
-  width: 50px;
   height: 50px;
+  width: 50px;
   position: relative;
-  left: 135px;
   top: 20px;
+  left: 135px;
 }
+
 .youShare {
   border: solid;
   color: white;
   border-color: white;
-  width: 200px;
   height: 150px;
+  width: 200px;
   padding-top: 20px;
   padding-left: 5px;
   position: relative;
   top: 30px;
   left: 60px;
 }
+
 .mainGo {
   position: relative;
   height: 400px;
@@ -315,28 +342,32 @@ a {
   display: flex;
   justify-content: center;
 }
+
 .go {
   position: absolute;
   top: 100px;
   border: solid;
-  width: 165px;
   height: 155px;
+  width: 165px;
   border-width: 1px;
   border-radius: 70%;
   background-color: rgb(116, 194, 194);
 }
+
 .goOne {
   position: absolute;
   padding-left: 50px;
   padding-top: 70px;
   color: black;
 }
+
 .mainMedia {
   position: relative;
   height: 100px;
   width: auto;
   background-color: rgb(116, 194, 194);
 }
+
 .media {
   position: relative;
   top: 35px;
@@ -345,15 +376,10 @@ a {
   justify-content: center;
   gap: 10px;
 }
-.facebook {
+
+.twitter, .instagram, .facebook {
   width: 40px;
   height: 40px;
 }
-.instagram {
-  width: 40px;
-  height: 40px;
-}
-.twitter {
-  width: 40px;
-  height: 40px;
-}
+
+/*# sourceMappingURL=style.css.map */

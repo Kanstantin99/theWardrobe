@@ -1,15 +1,20 @@
+$colorAzure: rgb(116, 194, 194);
+$colorBlack: black;
+@mixin widthHeightMix($widthValue, $heightValue) {
+  width: $widthValue;
+  height: $heightValue;
+}
 body {
-  background-color: rgb(116, 194, 194);
+  background-color: $colorAzure;
 }
 .forma {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  height: 600px;
+  @include widthHeightMix(400px, 600px);
   border: solid;
-  border-color: black;
+  border-color: $colorBlack;
   border-width: 2px;
   border-radius: 5%;
 }
@@ -22,8 +27,7 @@ body {
 }
 .formaMain {
   top: 50px;
-  width: 400px;
-  height: 500px;
+  @include widthHeightMix(400px, 500px);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -31,11 +35,10 @@ body {
 }
 .name {
   font-size: 20px;
-  width: 200px;
-  height: 35px;
-  background-color: rgb(116, 194, 194);
+  @include widthHeightMix(200px, 35px);
+  background-color: $colorAzure;
   border: none;
-  color: black;
+  color: $colorBlack;
 }
 .center {
   padding-left: 130px;
@@ -43,9 +46,8 @@ body {
 .sign {
   position: absolute;
   left: 140px;
-  width: 100px;
-  height: 40px;
-  background-color: black;
+  @include widthHeightMix(100px, 40px);
+  background-color: $colorBlack;
   border: solid;
 }
 .signUp {
@@ -53,14 +55,12 @@ body {
   padding-top: 10px;
   padding-left: 27px;
   text-decoration: none;
-  color: rgb(116, 194, 194);
+  color: $colorAzure;
 }
 .home {
   position: relative;
-  width: 40px;
-  height: 40px;
+  @include widthHeightMix(40px, 40px);
 }
 .homeGo {
-  width: 40px;
-  height: 40px;
+  @include widthHeightMix(40px, 40px);
 }

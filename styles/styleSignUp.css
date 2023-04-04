@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(116, 194, 194);
+}
+
+.forma {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 600px;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5%;
+}
+
+.wardrobe {
+  position: absolute;
+  padding-left: 105px;
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.formaMain {
+  top: 50px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.name {
+  font-size: 20px;
+  width: 200px;
+  height: 35px;
+  background-color: rgb(116, 194, 194);
+  border: none;
+  color: black;
+}
+
+.center {
+  padding-left: 130px;
+}
+
+.sign {
+  position: absolute;
+  left: 140px;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  border: solid;
+}
+
+.signUp {
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 27px;
+  text-decoration: none;
+  color: rgb(116, 194, 194);
+}
+
+.home {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.homeGo {
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=styleSignUp.css.map */

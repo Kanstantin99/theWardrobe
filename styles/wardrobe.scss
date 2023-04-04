@@ -1,0 +1,341 @@
+@import url(media.css);
+
+$colorAzure: rgb(116, 194, 194);
+$colorBlack: black;
+@mixin topLeftMix($toTopValue, $toLeftValue) {
+  top: $toTopValue;
+  left: $toLeftValue;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+@mixin heightWidthMix($heightValue, $widthValue) {
+  height: $heightValue;
+  width: $widthValue;
+}
+.mainHead {
+  @include heightWidthMix(100px, auto);
+  background-color: $colorBlack;
+  position: relative;
+}
+@mixin positionMix($leftValue) {
+  top: 30px;
+  left: $leftValue;
+}
+.logo {
+  position: absolute;
+  @include positionMix(60px);
+}
+.menu {
+  padding-top: 40px;
+  padding-right: 70px;
+  display: flex;
+  gap: 80px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.tw {
+  font-size: 25px;
+  color: $colorAzure;
+  @include positionMix(70px);
+}
+%headerStyle {
+  font-size: 15px;
+}
+.contact {
+  @extend %headerStyle;
+}
+.about {
+  @extend %headerStyle;
+}
+.faq {
+  @extend %headerStyle;
+}
+.profile {
+  @extend %headerStyle;
+}
+.mainWardrobe {
+  @include heightWidthMix(300px, auto);
+  background-color: $colorAzure;
+  position: relative;
+}
+
+.wardrobe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: monospace;
+  @include heightWidthMix(250px, 100%);
+  position: absolute;
+}
+.the {
+  font-size: 60px;
+  position: absolute;
+  top: 130px;
+}
+
+.mainWelcome {
+  @include heightWidthMix(500px, auto);
+  position: relative;
+  text-align: center;
+}
+.fon {
+  position: relative;
+  @include heightWidthMix(500px, auto);
+}
+.fon1 {
+  @include heightWidthMix(500px, 100%);
+}
+.welcome {
+  @include heightWidthMix(500px, auto);
+  position: relative;
+}
+.welcomeGuest {
+  @include heightWidthMix(500px, auto);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.welcomeDear {
+  text-align: center;
+}
+.welcomeDearmain {
+  text-align: center;
+}
+.welcomeDearmain::first-letter {
+  font-size: 50px;
+  background-color: $colorAzure;
+  color: $colorBlack;
+  margin-right: 0.2em;
+  padding: 0 0.2em 0.1em 0.2em;
+  border-radius: 0.1em;
+}
+.lineOne {
+  width: 100px;
+  color: $colorAzure;
+}
+.more {
+  border: solid;
+  @include heightWidthMix(20px, 70px);
+  padding: 7px 23px;
+  background-color: $colorAzure;
+  border-color: $colorAzure;
+  color: $colorBlack;
+}
+.mainUse {
+  position: relative;
+  @include heightWidthMix(700px, auto);
+  background-color: $colorAzure;
+}
+.who {
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.gridFirst {
+  @include heightWidthMix(600px, 900px);
+  position: absolute;
+  @include topLeftMix(100px, 304px);
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr;
+}
+.flexSecond {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.boy {
+  @include heightWidthMix(400px, 360px);
+  transition-duration: 1s;
+}
+.boy:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.flexThree {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: absolute;
+  @include topLeftMix(100px, 50px);
+}
+.girl {
+  @include heightWidthMix(400px, 360px);
+  transition-duration: 1s;
+}
+.girl:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.mainDo {
+  @include heightWidthMix(500px, auto);
+  position: relative;
+}
+.youdo {
+  text-align: center;
+  top: 100px;
+}
+.youdoCan {
+  font-family: monospace;
+  font-size: 50px;
+}
+.youdoCan::first-letter {
+  font-size: 50px;
+  background-color: $colorAzure;
+  color: $colorBlack;
+  margin-right: 0.2em;
+  padding: 0 0.2em 0.1em 0.2em;
+  border-radius: 0.1em;
+}
+.whatdo {
+  @include heightWidthMix(300px, auto);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  top: 70px;
+}
+.clothes {
+  @include heightWidthMix(300px, 340px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  transition-duration: 1s;
+}
+.clothes:hover {
+  background-color: $colorAzure;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.clothesFirst {
+  @include heightWidthMix(50px, 50px);
+  position: relative;
+  @include topLeftMix(20px, 135px);
+}
+.collect {
+  border: solid;
+  color: white;
+  border-color: white;
+  @include heightWidthMix(100px, 200px);
+  padding-top: 20px;
+  padding-left: 5px;
+  position: relative;
+  @include topLeftMix(30px, 60px);
+}
+
+.weather {
+  @include heightWidthMix(300px, 340px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  transition-duration: 1s;
+}
+.weather:hover {
+  background-color: $colorAzure;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.weatherFirst {
+  @include heightWidthMix(50px, 50px);
+  position: relative;
+  @include topLeftMix(20px, 135px);
+}
+.showWeather {
+  border: solid;
+  color: white;
+  border-color: white;
+  @include heightWidthMix(150px, 200px);
+  padding-top: 20px;
+  padding-left: 5px;
+  position: relative;
+  @include topLeftMix(30px, 60px);
+}
+
+.share {
+  @include heightWidthMix(300px, 340px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  transition-duration: 1s;
+}
+.share:hover {
+  background-color: $colorAzure;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.shareFirst {
+  @include heightWidthMix(50px, 50px);
+  position: relative;
+  @include topLeftMix(20px, 135px);
+}
+.youShare {
+  border: solid;
+  color: white;
+  border-color: white;
+  @include heightWidthMix(150px, 200px);
+  padding-top: 20px;
+  padding-left: 5px;
+  position: relative;
+  @include topLeftMix(30px, 60px);
+}
+.mainGo {
+  position: relative;
+  @include heightWidthMix(400px, auto);
+  display: flex;
+  justify-content: center;
+}
+.go {
+  position: absolute;
+  top: 100px;
+  border: solid;
+  @include heightWidthMix(155px, 165px);
+  border-width: 1px;
+  border-radius: 70%;
+  background-color: $colorAzure;
+}
+.goOne {
+  position: absolute;
+  padding-left: 50px;
+  padding-top: 70px;
+  color: $colorBlack;
+}
+.mainMedia {
+  position: relative;
+  @include heightWidthMix(100px, auto);
+  background-color: $colorAzure;
+}
+.media {
+  position: relative;
+  top: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+%footerStyle {
+  width: 40px;
+  height: 40px;
+}
+.facebook {
+  @extend %footerStyle;
+}
+.instagram {
+  @extend %footerStyle;
+}
+.twitter {
+  @extend %footerStyle;
+}
