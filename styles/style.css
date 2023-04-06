@@ -33,7 +33,10 @@ a {
   left: 70px;
 }
 
-.profile, .faq, .about, .contact {
+.profile,
+.faq,
+.about,
+.contact {
   font-size: 15px;
 }
 
@@ -73,7 +76,7 @@ a {
   width: auto;
 }
 
-.fon1 {
+.fonPicture {
   height: 500px;
   width: 100%;
 }
@@ -377,7 +380,9 @@ a {
   gap: 10px;
 }
 
-.twitter, .instagram, .facebook {
+.twitter,
+.instagram,
+.facebook {
   width: 40px;
   height: 40px;
 }

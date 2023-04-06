@@ -85,7 +85,7 @@ a {
   position: relative;
   @include heightWidthMix(500px, auto);
 }
-.fon1 {
+.fonPicture {
   @include heightWidthMix(500px, 100%);
 }
 .welcome {
